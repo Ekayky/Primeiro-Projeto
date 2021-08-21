@@ -1,0 +1,105 @@
+/* Codigo Geral */
+
+body{
+    background: url('/fundo.jpg');
+}
+
+/* Codigo do cadrasto */
+
+div#cadastro{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    background-color: rgb(68, 67, 67);
+    color: white;
+    height: 400px;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: auto;
+    box-shadow: black 3px 3px 3px;
+}
+
+div#cadastro:hover{
+    border: black 5px solid;
+    transition: 1s;
+}
+
+form{
+    padding-top: 40px;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input#nome1{
+    display: flex;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form input#email1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+form input#senha1{
+    margin-top: 20px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form input#mas, input#fen, input#nau{
+    display: flexbox;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+form input#envios{
+    display: flex;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 115px;
+    transition: 1s;
+}
+
+form input#envios:hover{
+    background-color: #918d8d;
+    color: white;
+    transition: 1s;
+}
+
+div#cadastro input{
+    padding: 10px;
+}
+
+label{
+    font-size: 10pt
+}
+
+label a{
+    text-decoration: underline;
+    color: white;
+    transition: 1s;
+}
+
+label a:hover{
+    color: black;
+    transition: 1s;
+}
+
+/* Codigo do topo */
+
+div#topo{
+    color: rgb(0, 0, 0);
+    padding-left: 740px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    position: relative;
+}
